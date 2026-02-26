@@ -27,5 +27,5 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Model Accuracy:", accuracy)
 
 # Save Model
-joblib.dump(model, "iris_model.pkl")
+joblib.dump(model, "../models/iris_model.pkl")
 print("Model Saved Successfully!")
